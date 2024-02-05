@@ -1,13 +1,11 @@
 @import 'vars', 'utils';
 
-body{
-    background-color: $bg-body-mobile;
-}
+
 h1{
     font-family: 'Young Serif', serif;
     font-weight: 400;
     // border: 1px solid red;
-    margin: 1.5rem 0;
+    margin: 1rem 0;
     color: $primary-color;
 }
 
@@ -99,6 +97,47 @@ section{
         li::marker{
             font-weight: 700;
             color: $primary-color;
+        }
+    }
+}
+
+.nutrition-section{
+    border-bottom: none;
+    padding-bottom: 0;
+
+    .nutrition-heading{
+        margin: 0 .5rem;
+    }
+    
+    h1{
+        margin: 1rem 0;
+    }
+
+    p{
+        font-size: 1rem;
+        color: $text-second;
+        margin-bottom: 1.5rem;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        tr{
+            border-bottom: 1px solid $text-first;
+            line-height: 2.5;
+            th{
+                color: $text-second;
+                font-weight: 400;
+                padding-right: 1rem;
+            }
+            td{
+                font-weight: 700;
+                color: $primary-color;
+
+            }
+        }
+        tr:last-child{
+            border-bottom: none;
         }
     }
 }
