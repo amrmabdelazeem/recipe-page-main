@@ -59,4 +59,25 @@ header{
 }
 section{
     margin: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid $text-first;
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    ul{
+        padding-left: 1.5rem;
+        color: $text-second;
+        li{
+            line-height: 1.5;
+            padding-left: 1rem;
+        }
+        li:not(li:last-child){
+            line-height: 2.5;
+        }
+        li::marker{
+            color: $primary-color;
+        }
+    }
 }
