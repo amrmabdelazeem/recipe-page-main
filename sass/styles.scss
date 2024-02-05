@@ -42,6 +42,7 @@ header{
             padding-left: 2rem;
             color: $text-second;
             li{
+                padding-left: 1rem;
                 span{
                     font-weight: 600;
                 }
@@ -105,9 +106,6 @@ section{
     border-bottom: none;
     padding-bottom: 0;
 
-    .nutrition-heading{
-        margin: 0 .5rem;
-    }
     
     h1{
         margin: 1rem 0;
@@ -117,6 +115,7 @@ section{
         font-size: 1rem;
         color: $text-second;
         margin-bottom: 1.5rem;
+        padding-right: 1rem;
     }
 
     table{
@@ -138,6 +137,48 @@ section{
         }
         tr:last-child{
             border-bottom: none;
+        }
+    }
+}
+
+@media (min-width:768px){
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        height: 100%;
+        padding: 2rem;
+        margin: 5rem 0;
+        background-color: $bg-body-mobile;
+        height: 100%;
+        width: 700px;
+        border-radius: 25px;
+    }
+    header{
+        img{
+            border-radius: 15px;
+        }
+        .heading{
+            margin: 2rem 0;
+        }
+    }
+    section{
+        margin: 2rem 0;
+    }
+
+    table{
+        tr{
+            th{
+                text-align: left;
+                padding-right: 0;
+                width: 50%;
+                padding-left: 2rem;
+            }
+            td{
+                padding-left: 1rem;
+            }
         }
     }
 }

@@ -4,3 +4,13 @@
     box-sizing: border-box;
     font-family: 'Outfit', sans-serif;
 }
+html{
+    max-height: 100%;
+}
+body{
+    background-color: $bg-body-desktop;
+}
+main{
+    background-color: $bg-body-mobile;
+    height: 100%;
+}
