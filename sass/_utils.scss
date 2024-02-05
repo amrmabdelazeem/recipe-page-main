@@ -9,6 +9,7 @@ html{
 }
 body{
     background-color: $bg-body-desktop;
+    animation: animate 1s ease-in-out normal;
 }
 main{
     background-color: $bg-body-mobile;
