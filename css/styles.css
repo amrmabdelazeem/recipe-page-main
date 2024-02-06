@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  min-height: 100%;
   background-color: hsl(30, 54%, 90%);
   animation: animate 1s ease-in-out normal;
 }
