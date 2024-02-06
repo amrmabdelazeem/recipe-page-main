@@ -1,7 +1,6 @@
 {
   "name": "recipe-page-main",
   "short_name": "recipe-main",
-  "theme-color":"#fff",
   "start_url": "/",
   "display": "standalone",
   "description": "This is a recipe page for an omelette platter which contains preparation time alongside Ingredients and nutrition values"
