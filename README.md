@@ -58,7 +58,7 @@ This is a solution to the [Recipe page challenge](https://www.frontendmentor.io/
 A common mistake circling around `parcel` is that when building  a production version of your website you might face an issue where a `/` is added 
 in front of all the paths to `css` or `images`.
 
-The solution for this issue is to configure the build script in `package.json` as follows  `"scripts": {"build": "parcel ./index.html --public-url ./",}`
+The solution for this issue is to configure the build script in `package.json` as follows  `"scripts": {"build": "parcel build ./index.html --public-url ./",}`
 then you can build by typing  `npm run build` in your terminal.
 
 ### Useful resources
